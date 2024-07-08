@@ -12,3 +12,4 @@ services:
       - 3005:3005
       - 9229:9229
     command: ["node", "--inspect=0.0.0.0:9229", "app.js"]
+    
